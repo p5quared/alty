@@ -1,8 +1,5 @@
 import type { Actions } from './$types';
-import PocketBase from 'pocketbase';
-
-const pbURL = 'http://127.0.0.1:8090';
-const pb = new PocketBase(pbURL);
+import { pb } from '$lib/pb';
 
 
 export const actions: Actions = {
