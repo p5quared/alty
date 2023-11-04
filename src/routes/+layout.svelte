@@ -10,6 +10,6 @@
 
 	<Toast />
 
-<div class="pt-8">
+<div class="p-12">
 	<slot />
 </div>

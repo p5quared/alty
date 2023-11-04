@@ -7,23 +7,23 @@
 
 	const toastStore = getToastStore();
 
+	console.log(form)
 	if (form?.success) {
-		console.log(form)
 		const t: ToastSettings = {
 			message: "Misdirection created! Here's the link:\n" + `https://${$page.url.hostname}/spoof/${form?.success}`,
 			autohide: false
 		}
 		toastStore.trigger(t);
-	} else {
+	} else if (form?.error) {
 		const t: ToastSettings = {
-			message: "Something went wrong, please try again.",
+			message: `Something went wrong: "${form.error}" Please try again.`,
 			timeout: 10000
 		}
 		toastStore.trigger(t);
 	}
 </script>
 
-<div class="container h-full mx-auto space-y-5">
+<div class="container mx-auto space-y-5">
 	<h1 class="h1">Create a Misdirection!</h1>
 	<form  method="POST" class="space-y-7 lg:max-w-lg">
 		<label for="title">
