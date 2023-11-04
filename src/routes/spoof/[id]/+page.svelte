@@ -18,7 +18,8 @@
 	}
 </script>
 <svelte:head>
-	<title>You got Spoof'd</title>
+	<title>{fields.og_title}</title>
+	<meta name="description" content={fields.og_description}/>
 	<meta property="og:title" content={fields.og_title}/>
 	<meta property="og:description" content={fields.og_description}/>
 	<meta property="og:image" content={fields.og_image}/>
