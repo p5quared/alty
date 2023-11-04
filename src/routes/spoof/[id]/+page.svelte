@@ -14,7 +14,7 @@
 		setTimeout(() => {
 			console.log('Redirecting to...', fields.realURL);
 			window.location.href = fields.realURL;
-			}, 5000);
+			}, 100);
 	}
 </script>
 <svelte:head>
