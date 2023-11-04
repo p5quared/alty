@@ -24,8 +24,8 @@ export const actions: Actions = {
 		formEntries.realURL = realURL_shortened;
 		*/
 
-		const {status} = await pb.collection('spoofs').create(formEntries);
+		const status = await pb.collection('spoofs').create(formEntries);
 
-		return { success: status };
+		return { success: status.id };
 	},
 } satisfies Actions;
