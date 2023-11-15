@@ -36,9 +36,65 @@
 		<a href="/create" class="btn btn-primary variant-filled-primary">Let's Go!</a>
 
 
-		<h2 class="h2">What is OpenGraph?</h2>
-		<p>OpenGraph is a protocol that allows you to add metadata to your website, so that when you share it on social media, it will show a preview of the website.</p>
-		<p>For example, if you share a link to a YouTube video, it will show the title, description, and thumbnail of the video.</p>
-		<p>You've probably seen this before, but you might not have known what it was called.</p>
+		<h2 class="h2">FAQ</h2>
+		<ul class="space-y-5">
+			<li>
+				<h3 class="h3">What is this?</h3>
+				<p>
+					Haven't you ever wanted to send someone a link that looks like it's 
+					some honest, trustworthy website, but it's actually a rickroll?
+					Such was my inspiration for this project.
+					<br>
+					<br>
+					Maybe I have too much time on my hands...
+				</p>
+			</li>
+			<li>
+				<h3 class="h3">But what if people do bad things??? OwO</h3>
+				<p>
+					Luckily for me, I don't really care.
+					Obviously, I don't want people to do bad things, but I'm not going to
+					lose sleep over it. 
+
+					I am not nearly capable enough to control what people do with this
+					website.
+				</p>
+			</li>
+			<li>
+				<h3 class="h3">Are you going to steal my data?</h3>
+				<p>
+					What data? You don't have to enter any personal information to use this
+					site.
+				</p>
+			</li>
+			<li>
+				<h3 class="h3">How does it work?</h3>
+				<p>
+					That's enough questions out of you.
+				</p>
+			</li>
+			<li>
+				<h3 class="h3">Can I give you some suggestions?</h3>
+				<p>
+					Sure, you can file any suggestions or bugs you find as issues
+					<a class="anchor" href="https://github.com/p5quared/alty/issues" target="_blank">
+						here.
+					</a>
+				</p>
+			</li>
+			<li>
+				<h3 class="h3">This is fun, can I give you money?</h3>
+				<p>
+					I'll never turn down money, I'm a greedy capitalist pig.
+				</p>
+				<form action="https://www.paypal.com/donate" method="post" target="_top">
+					<input type="hidden" name="business" value="ELPVTHEZLQ9RJ" />
+					<input type="hidden" name="no_recurring" value="0" />
+					<input type="hidden" name="currency_code" value="USD" />
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+					<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</li>
+		</ul>
 	</div>
 </div>
