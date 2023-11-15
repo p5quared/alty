@@ -85,7 +85,7 @@
 			<li>
 				<h3 class="h3">This is fun, can I give you money?</h3>
 				<p>
-					I'll never turn down money, I'm a greedy capitalist pig.
+					I'll never turn down money:
 				</p>
 				<form action="https://www.paypal.com/donate" method="post" target="_top">
 					<input type="hidden" name="business" value="ELPVTHEZLQ9RJ" />
