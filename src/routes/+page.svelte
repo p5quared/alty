@@ -76,8 +76,8 @@
 			<li>
 				<h3 class="h3">Can I give you some suggestions?</h3>
 				<p>
-					Sure, you can file any suggestions or bugs you find as issues
-					<a class="anchor" href="https://github.com/p5quared/alty/issues" target="_blank">
+					Sure, you can file any suggestions or bugs you find
+					<a class="anchor" href="/feedback">
 						here.
 					</a>
 				</p>
