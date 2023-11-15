@@ -5,7 +5,7 @@
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
 		<h1 class="h1">Let's start misinforming!</h1>
-		<p>Alty is a tool that allows you to spoof links very easily:</p>
+		<p>ReSourced is a tool that allows you to spoof links very easily:</p>
 		<a href="https://youtu.be/Oq7Qj-wi9VY?si=Am2V86ta6QNvrez3" target="_blank">
 			<!-- Fake Tweet -->
 		<div class="outline outline-1 outline-gray-400 p-4 bg-white text-black space-y-4">

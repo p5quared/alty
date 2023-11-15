@@ -1,7 +1,7 @@
 import { pb } from '$lib';
 import { dev } from '$app/environment';
 
-const site = dev ? 'http://localhost:8090' : 'https://alty-two.vercel.app';
+const site = dev ? 'http://localhost:8090' : 'https://resourcedonline.com';
 
 export async function GET({setHeaders}) {
 	setHeaders({ 'Content-Type': 'text/plain' });
