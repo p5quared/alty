@@ -43,10 +43,8 @@
 				<p>
 					Haven't you ever wanted to send someone a link that looks like it's 
 					some honest, trustworthy website, but it's actually a rickroll?
-					Such was my inspiration for this project.
-					<br>
-					<br>
-					Maybe I have too much time on my hands...
+
+					I heard this idea through the grapevine and inspiration was born...
 				</p>
 			</li>
 			<li>
