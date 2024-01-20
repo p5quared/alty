@@ -5,9 +5,9 @@
 <div class="space-y-5">
 	<h2 class="h2">Let's start misinforming!</h2>
 	<p>ReSourced is a tool that allows you to spoof links very easily:</p>
-	<a href="https://youtu.be/Oq7Qj-wi9VY?si=Am2V86ta6QNvrez3" target="_blank">
 		<!-- Fake Tweet -->
 	<div class="outline outline-1 outline-gray-400 p-4 bg-white text-black space-y-4 lg:w-1/2">
+		<a class="" href="https://youtu.be/Oq7Qj-wi9VY?si=Am2V86ta6QNvrez3" target="_blank">
 		<div class="flex justify-between">
 			<div class="flex">
 			<Avatar src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg"
@@ -28,9 +28,9 @@
 			FAKE NEWS - A TOTAL POLITICAL WITCH HUNT!
 		</p>
 		<p class="text-gray-400">8:19 PM | Jan 10, 2017</p>
+		</a>
 	</div>
 		<!-- Fake Tweet -->
-	</a>
 
 	<a href="/create" class="btn btn-primary variant-filled-primary">Let's Go!</a>
 
