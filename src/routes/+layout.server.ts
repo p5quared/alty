@@ -1,10 +1,6 @@
-import type { PageServerLoad } from './$types'
+import type { LayoutServerLoad } from './$types'
 
 export const load = ( async ({ locals }) => {
-	if (locals.user) {
-		return { user: locals.user }
-	} else {
-		return { user: undefined } 
-	}
-}) satisfies PageServerLoad
+	return {user: locals.user}
+}) satisfies LayoutServerLoad
 

@@ -28,7 +28,7 @@ export const actions: Actions = {
 			const status = await pb.collection('feedback').create(formEntries);
 			return { success: status.id };
 		} catch (e) {
-			console.log(e);
+			console.error(e);
 			return { error: e.message };
 		}
 	},

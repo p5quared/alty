@@ -1,10 +1,8 @@
 import type { Handle } from '@sveltejs/kit';
-import { dev } from '$app/environment';
-import PocketBase from 'pocketbase';
+import { pb } from '$lib/pb';
 
 export const handle = (async ({ event, resolve }) => {
-	const dbSource = dev ? 'http://127.0.0.1:8090' : process.env.POCKETBASE_URL;
-	event.locals.pb = new PocketBase(dbSource)
+	event.locals.pb = pb;
 
 	event.locals.pb.authStore.loadFromCookie(event.request.headers.get('cookie') || '')
 
